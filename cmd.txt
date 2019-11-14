@@ -1,0 +1,41 @@
+ 
+git config --global user.name "huqunyao2009"
+git config --global user.name "jiangxi2009@163.com"
+
+git init
+
+
+git add cmd.txt
+
+
+git commit -m 'first commit'
+git commit -m 'cmd.txtÃ·Ωª'
+
+
+git status
+
+
+git config --global user.email "jiangxi2009@163.com"
+git config --global user.name "huqunyao2009"
+
+
+
+git log
+
+
+git remote add origin https://github.com/huqunyao2009/demo
+git push -u origin master
+
+
+https://github.com/huqunyao2009/igl
+
+
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/huqunyao2009/bin.git
+git pull -u origin master
+git push -u origin master
+
+git remote -v
+git remote rm origin
